@@ -1,0 +1,15 @@
+#!/bin/sh
+set -euo pipefail
+
+WOFI_WALLPAPER_NAME=$(dir -1 /home/${USER}/.config/swww/walls | wofi -p "wallpaper" --dmenu -i)
+swww img "/home/${USER}/.config/swww/walls/$WOFI_WALLPAPER_NAME" \
+    \
+    \
+    --transition-bezier .6,.94,.86,.23\
+    --transition-type "grow" \
+    --transition-duration 1 \
+    --transition-fps 144 \
+    --invert-y \
+    --transition-pos "$( hyprctl cursorpos )" \
+
+# Options up here ^

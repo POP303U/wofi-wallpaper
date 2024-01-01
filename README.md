@@ -13,6 +13,7 @@ If you want to use it with a different wallpaper path, wallpaper system or langu
 ```
 git clone https://github.com/POP303U/wofi-wallpaper.git
 cd wofi-wallpaper
+chmod +x wofi-wallpaper
 sudo cp wofi-wallpaper /bin
 ```
 

@@ -3,6 +3,9 @@
 Wallpaper changer script for wofi
 </div>
 
+It is recommended to use this script with my Hyprland config [hypr-dots](https://github.com/POP303U/hypr-dots)
+If you want to use it with a different wallpaper path, wallpaper system or language that is all up to you.
+
 ## Installation
 
 ```

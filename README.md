@@ -11,10 +11,9 @@ If you want to use it with a different wallpaper path, wallpaper system or langu
 ## Installation
 
 ```
-git clone https://github.com/POP303U/wofi-wallpaper.git
-cd wofi-wallpaper
-chmod +x wofi-wallpaper
-sudo cp wofi-wallpaper /bin
+git clone https://github.com/POP303U/wofi-wallpaper.git ~/wofi/wofi-wall
+chmod +x ~/wofi/wofi-wall/wofi-wallpaper
+sudo cp ~/wofi/wofi-rice/wofi-rice-selector /bin
 ```
 
 ### Hyprland keybinding

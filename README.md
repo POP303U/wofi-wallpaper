@@ -11,7 +11,7 @@ If you want to use it with a different wallpaper path, wallpaper system or langu
 ## Installation
 
 ```
-git clone https://github.com/POP303U/wofi-wallpaper.git ~/wofi/wofi-wall
+git clone https://github.com/POP303U/wofi-wallpaper ~/wofi/wofi-wall
 chmod +x ~/wofi/wofi-wall/wofi-wallpaper
 sudo cp ~/wofi/wofi-wall/wofi-wallpaper /bin
 ```
